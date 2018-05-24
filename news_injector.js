@@ -1,9 +1,26 @@
 let newsContent = document.getElementById('news-content')
 let newsContent2 = document.getElementById('news-content2')
+let slideshow = document.getElementById('slide-show')
 
 let newsArticles = news['articles']
 
+let index = 0
+let interval = setInterval(function(){
+  if(index == newsArticles.length) index = 0
+  let slideShowItem = `<li class="media">
+<img class="mr-3" src="${newsArticles[index].urlToImage}" alt="Generic placeholder image">
+<div class="media-body">
+  <h5 class="mt-0 mb-1">${newsArticles[index].title}</h5>
+  <p>${newsArticles[index].description}</p>
+  <p><small class="text-muted">${newsArticles[index].author} via: ${newsArticles[index].source['name']}</small></p>
+  <p><small class="text-muted">${newsArticles[index].publishedAt}</small></p>
 
+</div>
+</li>`
+slideshow.innerHTML = slideShowItem
+index++
+
+},5000)
 
 function full_news() {
   newsContent.innerHTML = ''
@@ -23,7 +40,7 @@ function full_news() {
 
 full_news()
 
-function full_media() {
+/* function full_media() {
   newsContent2.innerHTML = ''
   newsArticles.forEach((article) => {
       let articleItem = `<li class="media">
@@ -40,4 +57,4 @@ function full_media() {
   })
 }
 
-full_media()
+full_media() */
