@@ -51,6 +51,18 @@ publishedAt: "2017-12-06T20:37:12Z"
 },
 {
 source: {
+id: "pcgamer",
+name: "PCGAMER"
+},
+author: "Paul Lilly",
+title: "Nvidia's GeForce GTX 1180 is rumored to arrive in July",
+description: "Nvidia hasn't been in a rush to supplant Pascal in the consumer sector, and it's easy to understand why—AMD's competing Vega architecture only brought parity to Pascal, which is now a two-year-old architecture, and on top of that Vega cards are still in short supply. Be that as it may, there's chatter that Nvidia is preparing to launch a next-generation GeForce GTX 1180 (or 2080—no official name has been announced yet) graphics card in July.",
+url: "https://www.pcgamer.com/nvidias-geforce-gtx-1180-is-rumored-to-arrive-in-july/",
+urlToImage: "https://cdn.mos.cms.futurecdn.net/Ax5LB8PfMuhqxnUHFWqhJZ-650-80.jpg",
+publishedAt: "2018-17-05T20:37:5Z"
+},
+{
+source: {
 id: "gamersyde",
 name: "GAMERSYDE"
 },
@@ -59,7 +71,19 @@ title: "Battlefield V revealed",
 description: "Electronic Arts and DICE revealed yesrerday Battlefield V which as expected takes place during World War 2. Besides multiplayer modes the title features single-player War Stories and the cooperative Combined Arms. It will launch October 19. As usual with EA, we don't have the trailer in good quality but asked for it just in case. The first screens are inside.",
 url: "http://www.gamersyde.com/news_battlefield_v_revealed-20039_en.html",
 urlToImage: "http://www.gamersyde.com/news_battlefield_v_revealed-20039.jpg",
-publishedAt: "2018-24-04T20:37:5Z"
+publishedAt: "2018-24-05T20:37:5Z"
+},
+{
+source: {
+id: "eurogamer",
+name: "EUROGAMER"
+},
+author: "Richard Leadbetter",
+title: "Sony is working with AMD's Ryzen CPU tech - and PS5 is the most likely target",
+description: "PlayStation programmer improving Ryzen support on a key developer tool.",
+url: "https://www.eurogamer.net/articles/digitalfoundry-2018-sony-is-working-with-amd-ryzen-and-ps5-is-the-most-likely-target",
+urlToImage: "https://cdn.gamer-network.net/2018/articles/2018-05-22-09-30/digitalfoundry-2018-sony-is-working-with-amd-ryzen-and-ps5-is-the-most-likely-target-1526977847429.jpg/EG11/thumbnail/1200x630/format/jpg/1973412.jpg",
+publishedAt: "2018-22-05T20:37:5Z"
 }
 ]
 }
