@@ -5,7 +5,12 @@ let slideshow = document.getElementById('slide-show')
 let newsArticles = news['articles']
 
 let index = 0
+rotate_news()
 let interval = setInterval(function(){
+rotate_news()
+},5000)
+
+function rotate_news() {
   if(index == newsArticles.length) index = 0
   let slideShowItem = `<li class="media">
 <img class="mr-3" src="${newsArticles[index].urlToImage}" alt="Generic placeholder image">
@@ -19,8 +24,7 @@ let interval = setInterval(function(){
 </li>`
 slideshow.innerHTML = slideShowItem
 index++
-
-},5000)
+}
 
 function full_news() {
   newsContent.innerHTML = ''
